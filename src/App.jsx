@@ -7,16 +7,40 @@ import imagen03 from "./assets/03.jpg";
 import imagen04 from "./assets/04.jpg";
 
 function App() {
+  const personas = [
+    {
+      boleto: "01",
+      nombre: "Abraham Cabrera Benito",
+      celular: 2311591893,
+      domicilio: "Aquiles Serdan #7 Yopi Chignautla",
+      
+    },
+    {
+      boleto: "02",
+      nombre: "Heriberto Brigido",
+      celular: 2311591893,
+      domicilio: "Aquiles Serdan #7 Yopi Chignautla",
+      
+    },
+    {
+      boleto: "03",
+      nombre: "Lobo",
+      celular: 2311591893,
+      domicilio: "Aquiles Serdan #7 Yopi Chignautla",
+      
+    },
+  ];
   return (
     <div className="container">
-      <h1>Apoya a Eloy</h1>
-      <h1>Gran Rifa</h1>
+      <h3>Apoya a Eloy.</h3>
+      <h3>🎉Gran Rifa🎉</h3>
       <p>
-        Todo lo recaudado será donado en apoyo a la señora Soledad Conde
+        Todo lo recaudado será donado en apoyo a su señora esposa: Soledad Conde
         Teodosio.
       </p>
-      <p>$50 Pesos el boleto</p>
-      <p>Ganate una pantalla de 40 pulgadas.</p>
+      <p>💲$50 Pesos el boleto💲</p>
+      <p>📺Ganate una pantalla de 40 pulgadas.📺</p>
+      <p>La rifa se llevara a cabo el día Domingo 25 de junio del 2023. En la base de Urbanos Rojos a las 11:00 am.</p>
       <p>
         Muchas gracias a todos nuestros donantes. Esto no estaría siendo posible
         sin ustedes. Gracias a la sociedad en general por hacernos sentir
@@ -25,7 +49,7 @@ function App() {
       <p>❤ De corazon. MIL GRACIAS. ❤</p>
       <hr></hr>
       <div className="row">
-        <h3>Roku TV Televisor LED-LCD serie 4000</h3>
+        <h4>Roku TV Televisor LED-LCD serie 4000</h4>
         <div className="col-md-6">
           <img src={imagen01} alt="01" className="img-fluid" />
           <p className="parrafo">
@@ -91,11 +115,27 @@ function App() {
           se está solicitando el apoyo.
         </p>
         <div className="col-md-6">
-        <img src={imagen04} alt="04" className="img-fluid" />
+          <img src={imagen04} alt="04" className="img-fluid" />
         </div>
         <hr></hr>
       </div>
       <h4>Lista de participantes en la rifa.</h4>
+      <table className="table">
+        <thead>
+          <tr>
+            <th>Boleto</th>
+            <th>Nombre</th>
+          </tr>
+        </thead>
+        <tbody>
+          {personas.map((persona, index) => (
+            <tr key={index}>
+              <td>{persona.boleto}</td>
+              <td>{persona.nombre}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 }
