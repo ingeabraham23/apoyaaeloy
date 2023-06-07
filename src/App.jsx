@@ -42,7 +42,26 @@ function App() {
       boleto: "69",
       nombre: "Ines Carmona Larios",
     },
+    {
+      boleto: "66",
+      nombre: "Brenda Ivonne Cordero Ortega",
+    },
+    {
+      boleto: "70",
+      nombre: "Francisca Sandoval Rojas",
+    },
+
+    //71-80
+    {
+      boleto: "75",
+      nombre: "José Luis Ortega Sandoval",
+    },
     
+    //141-150
+    {
+      boleto: "150",
+      nombre: "Jhonatan Tadeo",
+    },
    //91-100
     {
       boleto: "100",
@@ -73,6 +92,27 @@ function App() {
     {
       boleto: "276",
       nombre: "Marcos Hernandez",
+    },
+    //281-290
+    {
+      boleto: "281",
+      nombre: "Maxi Cabrera Benito",
+    },
+    {
+      boleto: "283",
+      nombre: "Jesús Esteban Lucas",
+    },
+    {
+      boleto: "284",
+      nombre: "Agustina Cabrera Benito",
+    },
+    {
+      boleto: "286",
+      nombre: "Isabel Cabrera Benito",
+    },
+    {
+      boleto: "287",
+      nombre: "Fernando Cabrera Benito",
     },
     //391-400
     {
