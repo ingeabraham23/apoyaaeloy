@@ -2,45 +2,97 @@
 import React from "react";
 import "./App.css";
 import imagen01 from "./assets/01.jpg";
-import imagen02 from "./assets/02.jpg";
-import imagen03 from "./assets/03.jpg";
+import imagen05 from "./assets/05.jpg";
 import imagen04 from "./assets/04.jpg";
 
 function App() {
   const personas = [
     {
-      boleto: "01",
-      nombre: "Abraham Cabrera Benito",
-      celular: 2311591893,
-      domicilio: "Aquiles Serdan #7 Yopi Chignautla",
-      
+      boleto: "7",
+      nombre: "Daniela Casiano Sanchez",
     },
     {
-      boleto: "02",
-      nombre: "Heriberto Brigido",
-      celular: 2311591893,
-      domicilio: "Aquiles Serdan #7 Yopi Chignautla",
-      
+      boleto: "8",
+      nombre: "Mario Sanchez Aguilar",
+    },
+    //11-20
+    {
+      boleto: "13",
+      nombre: "Susy Sanchez Carmona",
     },
     {
-      boleto: "03",
-      nombre: "Lobo",
-      celular: 2311591893,
-      domicilio: "Aquiles Serdan #7 Yopi Chignautla",
-      
+      boleto: "15",
+      nombre: "Hugo Jared Casiano Sanchez",
+    },
+    //21-30
+    {
+      boleto: "22",
+      nombre: "Amibelen Casiano Sanchez",
+    },
+    {
+      boleto: "23",
+      nombre: "Jose Luis Sanchez Campos",
+    },
+    {
+      boleto: "24",
+      nombre: "Juana Sanchez Carmona",
+    },
+    //61-70
+    {
+      boleto: "69",
+      nombre: "Ines Carmona Larios",
+    },
+    
+   //91-100
+    {
+      boleto: "100",
+      nombre: "Daniel Casiano Lauriano",
+    },
+    //261-270
+    {
+      boleto: "261",
+      nombre: "Uriel Hernandez Ramirez",
+    },
+    {
+      boleto: "262",
+      nombre: "Uriel Hernandez Ramirez",
+    },
+    {
+      boleto: "265",
+      nombre: "Gabriela Ramirez",
+    },
+    {
+      boleto: "270",
+      nombre: "Jazmin Hernandez",
+    },
+    //271-280
+    {
+      boleto: "275",
+      nombre: "Marcos Hernandez",
+    },
+    {
+      boleto: "276",
+      nombre: "Marcos Hernandez",
+    },
+    //391-400
+    {
+      boleto: "400",
+      nombre: "Ines Carmona Larios",
     },
   ];
+
   return (
     <div className="container">
       <h3>Apoya a Eloy.</h3>
-      <h3>🎉Gran Rifa🎉</h3>
+      <h2>🎉Gran Rifa🎉</h2>
+      <h3>La rifa se llevara a cabo el día Domingo 25 de junio del 2023. En la base de Urbanos Rojos. A las 11:00 de la mañana.</h3>
       <p>
         Todo lo recaudado será donado en apoyo a su señora esposa: Soledad Conde
         Teodosio.
       </p>
       <p>💲$50 Pesos el boleto💲</p>
       <p>📺Ganate una pantalla de 40 pulgadas.📺</p>
-      <p>La rifa se llevara a cabo el día Domingo 25 de junio del 2023. En la base de Urbanos Rojos a las 11:00 am.</p>
+      
       <p>
         Muchas gracias a todos nuestros donantes. Esto no estaría siendo posible
         sin ustedes. Gracias a la sociedad en general por hacernos sentir
@@ -57,32 +109,6 @@ function App() {
             más inteligente totalmente diseñado para el entretenimiento con
             funciones integradas para transmitir, ver televisión en vivo y mucho
             más.
-          </p>
-        </div>
-        <div className="col-md-6">
-          <img src={imagen02} alt="02" className="img-fluid" />
-          <p className="parrafo">
-            Ve, transmite, reproduce, escucha, ríe y repite todo lo anterior.
-            Con este TV Roku Philips verás, descubrirás y disfrutarás el
-            entretenimiento que te encanta como nunca antes. Comienza a
-            transmitir tus programas favoritos. Accede a tu sintonizador de
-            cable o antena HDTV. Incluso puedes potenciar tu consola de juegos
-            desde la pantalla de inicio. Busca por título, actor o director para
-            descubrir dónde transmitir tus programas favoritos de manera
-            gratuita o al precio más bajo. Además, verás dónde lo están
-            transmitiendo en vivo con una antena HDTV.
-          </p>
-        </div>
-        <div className="col-md-6">
-          <img src={imagen03} alt="03" className="img-fluid" />
-          <p className="parrafo">
-            Convierte tu dispositivo iOS® o Android™ en tu mejor compañero de
-            transmisión. Cuando necesites un segundo control remoto o desees
-            contar con más funciones y funcionalidades, la aplicación móvil Roku
-            hace que controlar tu Roku TV sea divertido y sencillo. Busca con el
-            teclado, usa la búsqueda por voz, disfruta de reproducciones de
-            audio privadas con hasta tres amigos, transmite con tu televisor y
-            mucho más.
           </p>
         </div>
         <hr></hr>
@@ -115,7 +141,16 @@ function App() {
           se está solicitando el apoyo.
         </p>
         <div className="col-md-6">
-          <img src={imagen04} alt="04" className="img-fluid" />
+          <img src={imagen04} alt="Honorarios del Doctor" className="img-fluid" />
+          <p className="parrafo">
+            Honorarios del doctor por Laparoscopia  $35,000.00
+          </p>
+        </div>
+        <div className="col-md-6">
+          <img src={imagen05} alt="Gastos en Hospital" className="img-fluid" />
+          <p className="parrafo">
+            Gastos Totales en el hospital Aparte de los honorarios del doctor $68,782.26
+          </p>
         </div>
         <hr></hr>
       </div>
