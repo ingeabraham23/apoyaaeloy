@@ -67,6 +67,11 @@ function App() {
       boleto: "100",
       nombre: "Daniel Casiano Lauriano",
     },
+    //191-200
+    {
+      boleto: "200",
+      nombre: "Marcelina de Jesus García",
+    },
     //261-270
     {
       boleto: "261",
@@ -113,6 +118,18 @@ function App() {
     {
       boleto: "287",
       nombre: "Fernando Cabrera Benito",
+    },
+    {
+      boleto: "288",
+      nombre: "Rafael Serrano Mestiza",
+    },
+    {
+      boleto: "289",
+      nombre: "Abraham Cabrera Benito",
+    },
+    {
+      boleto: "290",
+      nombre: "Rafael Serrado Mestiza",
     },
     //391-400
     {
