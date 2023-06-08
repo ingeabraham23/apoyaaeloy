@@ -56,13 +56,13 @@ function App() {
       boleto: "75",
       nombre: "José Luis Ortega Sandoval",
     },
-    
+
     //141-150
     {
       boleto: "150",
       nombre: "Jhonatan Tadeo",
     },
-   //91-100
+    //91-100
     {
       boleto: "100",
       nombre: "Daniel Casiano Lauriano",
@@ -71,6 +71,51 @@ function App() {
     {
       boleto: "200",
       nombre: "Marcelina de Jesus García",
+    },
+    //201-220
+    {
+      boleto: "204",
+      nombre: "Juan Cabrera",
+    },
+    {
+      boleto: "207",
+      nombre: "Jesus Bandala",
+    },
+    {
+      boleto: "211",
+      nombre: "Erick García Olivares",
+    },
+    {
+      boleto: "212",
+      nombre: "Daniela Baez Ramón",
+    },
+    {
+      boleto: "213",
+      nombre: "Adolfo Cruz",
+    },
+    {
+      boleto: "214",
+      nombre: "Guadalepe de Jesus García",
+    },
+    {
+      boleto: "215",
+      nombre: "Josue Adan Bautista Casiano",
+    },
+    {
+      boleto: "216",
+      nombre: "Roberto Santos",
+    },
+    {
+      boleto: "218",
+      nombre: "Tino Garger",
+    },
+    {
+      boleto: "219",
+      nombre: "Trini Quijano",
+    },
+    {
+      boleto: "220",
+      nombre: "David Santos Lucas",
     },
     //261-270
     {
@@ -129,7 +174,7 @@ function App() {
     },
     {
       boleto: "290",
-      nombre: "Rafael Serrado Mestiza",
+      nombre: "Rafael Serrano Mestiza",
     },
     //391-400
     {
@@ -142,14 +187,17 @@ function App() {
     <div className="container">
       <h3>Apoya a Eloy.</h3>
       <h2>🎉Gran Rifa🎉</h2>
-      <h3>La rifa se llevara a cabo el día Domingo 25 de junio del 2023. En la base de Urbanos Rojos. A las 11:00 de la mañana.</h3>
+      <h3>
+        La rifa se llevara a cabo el día Domingo 25 de junio del 2023. En la
+        base de Urbanos Rojos. A las 11:00 de la mañana.
+      </h3>
       <p>
         Todo lo recaudado será donado en apoyo a su señora esposa: Soledad Conde
         Teodosio.
       </p>
       <p>💲$50 Pesos el boleto💲</p>
       <p>📺Ganate una pantalla de 40 pulgadas.📺</p>
-      
+
       <p>
         Muchas gracias a todos nuestros donantes. Esto no estaría siendo posible
         sin ustedes. Gracias a la sociedad en general por hacernos sentir
@@ -169,7 +217,7 @@ function App() {
           </p>
         </div>
         <hr></hr>
-        <h1>Historia</h1>
+        <h3>Historia</h3>
         <p>
           El pasado miércoles 24 de mayo Eloy llevo a consulta a su esposa, ya
           que presentaba tos fuerte y arrojaba flema café con sangre, en días
@@ -198,23 +246,59 @@ function App() {
           se está solicitando el apoyo.
         </p>
         <div className="col-md-6">
-          <img src={imagen04} alt="Honorarios del Doctor" className="img-fluid" />
+          <img
+            src={imagen04}
+            alt="Honorarios del Doctor"
+            className="img-fluid"
+          />
           <p className="parrafo">
-            Honorarios del doctor por Laparoscopia  $35,000.00
+            Honorarios del doctor por Laparoscopia $35,000.00
           </p>
         </div>
         <div className="col-md-6">
           <img src={imagen05} alt="Gastos en Hospital" className="img-fluid" />
           <p className="parrafo">
-            Gastos Totales en el hospital Aparte de los honorarios del doctor $68,782.26
+            Gastos Totales en el hospital Aparte de los honorarios del doctor
+            $68,782.26
           </p>
         </div>
         <hr></hr>
       </div>
+      <h3>Dinámica.</h3>
+      <p style={{textAlign: "left"}}>
+        <ol>
+          <li>
+            El día de la rifa (Domingo, 25 de Junio, del 2023. A las 11 de la
+            mañana) todos los boletos se meterán a un frasco.
+          </li>
+          <li>
+            Se buscará una mano santa del público que saque el o los boletos.
+          </li>
+          <li>
+            El público decidirá si gana el primer boleto que salga o el segundo,
+            tercero, cuarto, etc.
+          </li>
+          <li>
+            La persona ganadora deberá presentar su BOLETO o en su defecto su INE para recibir su
+            SmartTV.
+          </li>
+          <li>
+            Si la persona que resulte ganadora no se encuentra presente, se le
+            hará una llamada, si no contesta a la segunda llamada se descartara su
+            boleto y se procederá a sacar otro boleto.
+          </li>
+          <li>
+            Si es que si contesta deberá presentarse en la terminal de urbanos
+            rojos para recibir su SmartTV antes de las 8 de la noche ese mismo
+            día presentando su boleto o su INE.
+          </li>
+        </ol>
+      </p>
       <h4>Lista de participantes en la rifa.</h4>
       <table className="table">
         <thead>
           <tr>
+            <th></th>
             <th>Boleto</th>
             <th>Nombre</th>
           </tr>
@@ -222,6 +306,7 @@ function App() {
         <tbody>
           {personas.map((persona, index) => (
             <tr key={index}>
+              <td>{index + 1}</td>
               <td>{persona.boleto}</td>
               <td>{persona.nombre}</td>
             </tr>
