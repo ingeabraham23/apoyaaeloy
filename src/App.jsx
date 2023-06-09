@@ -117,6 +117,39 @@ function App() {
       boleto: "220",
       nombre: "David Santos Lucas",
     },
+    //241-260
+    {
+      boleto: "241",
+      nombre: "Ofelia Luna Paulino",
+    },
+    {
+      boleto: "242",
+      nombre: "Ofelia Luna Paulino",
+    },
+    {
+      boleto: "243",
+      nombre: "David Muñiz Pila",
+    },
+    {
+      boleto: "244",
+      nombre: "Luis Mora",
+    },
+    {
+      boleto: "250",
+      nombre: "Rodolfo Borzani",
+    },
+    {
+      boleto: "251",
+      nombre: "María Dolores Monroy Díaz",
+    },
+    {
+      boleto: "255",
+      nombre: "José David Muñiz Monroy",
+    },
+    {
+      boleto: "260",
+      nombre: "Gabriel Muñiz Monroy",
+    },
     //261-270
     {
       boleto: "261",
