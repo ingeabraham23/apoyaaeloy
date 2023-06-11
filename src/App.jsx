@@ -94,6 +94,10 @@ function App() {
       nombre: "Jesus Bandala",
     },
     {
+      boleto: "208",
+      nombre: "Ascencion Martinez",
+    },
+    {
       boleto: "211",
       nombre: "Erick García Olivares",
     },
@@ -222,15 +226,35 @@ function App() {
       nombre: "Rafael Serrano Mestiza",
     },
     {
+      boleto: "291",
+      nombre: "Nahum Alejandro Fermin Garcia",
+    },
+    {
       boleto: "292",
       nombre: "Octavio Colin",
+    },
+    {
+      boleto: "293",
+      nombre: "Ascencion Martinez",
     },
     {
       boleto: "294",
       nombre: "Octavio Colin",
     },
     {
+      boleto: "295",
+      nombre: "Nahum Alejandro Fermin Garcia",
+    },
+    {
+      boleto: "296",
+      nombre: "Nahum Alejandro Fermin Garcia",
+    },
+    {
       boleto: "297",
+      nombre: "Octavio Colin",
+    },
+    {
+      boleto: "292",
       nombre: "Octavio Colin",
     },   
     
