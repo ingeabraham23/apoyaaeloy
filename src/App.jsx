@@ -7,42 +7,212 @@ import imagen04 from "./assets/04.jpg";
 
 function App() {
   const personas = [
+    
     {
-      boleto: "7",
+      boleto: "003",
+      nombre: "Maria Del Carmen Hernandez Molina",
+    },
+    {
+      boleto: "004",
+      nombre: "Juan Carlos Hernandez Drovallet",
+    },
+    {
+      boleto: "005",
+      nombre: "Jose Ramos",
+    },
+    {
+      boleto: "006",
+      nombre: "Nancy Cano Cano",
+    },
+    {
+      boleto: "007",
       nombre: "Daniela Casiano Sanchez",
     },
     {
-      boleto: "8",
+      boleto: "008",
       nombre: "Mario Sanchez Aguilar",
     },
-    //11-20
     {
-      boleto: "13",
+      boleto: "009",
+      nombre: "Jorge Landeros Lopez",
+    },
+    {
+      boleto: "011",
+      nombre: "Amalia Valera Rivera",
+    },
+    {
+      boleto: "012",
+      nombre: "Itzel Idali Lopez",
+    },
+    {
+      boleto: "013",
       nombre: "Susy Sanchez Carmona",
     },
     {
+      boleto: "14",
+      nombre: "Guadalupe de Jesus Juarez",
+    },
+    {
       boleto: "15",
-      nombre: "Hugo Jared Casiano Sanchez",
+      nombre: "Hugo Jared Casiano ",
+    },
+    {
+      boleto: "16",
+      nombre: "Angel Giovani Carreon Ortega",
+    },
+    {
+      boleto: "17",
+      nombre: "Felipe Camacho Martinez",
     },
     //21-30
     {
-      boleto: "22",
+      boleto: "022",
       nombre: "Amibelen Casiano Sanchez",
     },
     {
-      boleto: "23",
+      boleto: "023",
       nombre: "Jose Luis Sanchez Campos",
     },
     {
       boleto: "24",
       nombre: "Juana Sanchez Carmona",
     },
+    {
+      boleto: "26",
+      nombre: "Juan Roman Galvan",
+    },
+    {
+      boleto: "28",
+      nombre: "Raquel Herrera Vega",
+    },
+    {
+      boleto: "30",
+      nombre: "Hector Garcia Ramirez",
+    },
+    {
+      boleto: "31",
+      nombre: "Flavio Narciso Lucas",
+    },
+    {
+      boleto: "32",
+      nombre: "Vania Becerril Mendez",
+    },
+    {
+      boleto: "33",
+      nombre: "Flavio Narciso Lucas",
+    },
+    {
+      boleto: "34",
+      nombre: "Dilan Urbano Perfecto Ventura",
+    },
+    {
+      boleto: "35",
+      nombre: "Flavio Narciso Lucas",
+    },
+    {
+      boleto: "36",
+      nombre: "Dilan Urbano Perfecto Ventura",
+    },
+    {
+      boleto: "37",
+      nombre: "Flavio Narciso Lucas",
+    },
+    {
+      boleto: "38",
+      nombre: "Margarita Casiano Gonzalez",
+    },
+    {
+      boleto: "39",
+      nombre: "Flavio Narciso Lucas",
+    },
+    {
+      boleto: "40",
+      nombre: "Dilan Urbano Perfecto Ventura",
+    },
+    {
+      boleto: "41",
+      nombre: "Flavio Narciso Lucas",
+    },
+    {
+      boleto: "42",
+      nombre: "Vania Becerril Mendez",
+    },
+    {
+      boleto: "43",
+      nombre: "Flavio Narciso Lucas",
+    },
+    {
+      boleto: "44",
+      nombre: "Isaias Meneses Vega",
+    },
+    {
+      boleto: "45",
+      nombre: "Flavio Narciso Lucas",
+    },
+    
+    //40-60
+    {
+      boleto: "46",
+      nombre: "Marcos Colin",
+    },
+    {
+      boleto: "50",
+      nombre: "Victor Santos Aparicio",
+    },
+    {
+      boleto: "51",
+      nombre: "Marcos Colin",
+    },
+    {
+      boleto: "52",
+      nombre: "Moises Valera Carmona",
+    },
+    {
+      boleto: "54",
+      nombre: "Samuel Vazquez Nicolas",
+    },
+    {
+      boleto: "55",
+      nombre: "Marcos Colin",
+    },
+    {
+      boleto: "56",
+      nombre: "Humberto Ibañez Rodrigo",
+    },
+    {
+      boleto: "57",
+      nombre: "Victor Santos Aparicio",
+    },
+    {
+      boleto: "59",
+      nombre: "Alma Rosa Lucas Acevedo",
+    },
+    {
+      boleto: "60",
+      nombre: "Ramon Olivares Pozos",
+    },
+    {
+      boleto: "61",
+      nombre: "Samuel Vazquez Nicolas",
+    },
+    {
+      boleto: "64",
+      nombre: "Ramon Olivares Pozos",
+    },
+    {
+      boleto: "65",
+      nombre: "Marcos Colin",
+    },
+    
     //61-70
     {
       boleto: "66",
       nombre: "Brenda Ivonne Cordero Ortega",
     },
-    
+    {
+      boleto: "67",
+      nombre: "Emmanuel Ramos Marin",
+    },
     {
       boleto: "69",
       nombre: "Ines Carmona Larios",
@@ -58,12 +228,190 @@ function App() {
       boleto: "75",
       nombre: "José Luis Ortega Sandoval",
     },
+    {
+      boleto: "76",
+      nombre: "Santiago Rojas Domingo",
+    },
+    {
+      boleto: "77",
+      nombre: "Valeria Del Carmen Rojas Domingo",
+    },
+    {
+      boleto: "78",
+      nombre: "Regina Rojas Rojas",
+    },
+    {
+      boleto: "79",
+      nombre: "Sebastian Rojas Rojas",
+    },
+    {
+      boleto: "80",
+      nombre: "Victor Manuel Suarez Minor",
+    },
+    {
+      boleto: "81",
+      nombre: "Rosario Martinez Hernandez",
+    },
+    {
+      boleto: "82",
+      nombre: "Darío Conde Martinez",
+    },
+    {
+      boleto: "85",
+      nombre: "Jose Luis Victoria Mena",
+    },
+    {
+      boleto: "87",
+      nombre: "Edgar Morales",
+    },
+    {
+      boleto: "88",
+      nombre: "Concepcion Conde Teodosio",
+    },
+    {
+      boleto: "89",
+      nombre: "Edgar Morales",
+    },
+    {
+      boleto: "91",
+      nombre: "Juan Carlos Valera Lara",
+    },
+
+    {
+      boleto: "100",
+      nombre: "Daniel Casiano Lauriano",
+    },
+    {
+      boleto: "101",
+      nombre: "Carmen De Jesus Juarez",
+    },
+    {
+      boleto: "102",
+      nombre: "Mirna Ortega",
+    },
+    {
+      boleto: "103",
+      nombre: "Eulalia Rojas",
+    },
+    {
+      boleto: "104",
+      nombre: "Eulalia Rojas",
+    },
+    {
+      boleto: "105",
+      nombre: "Juanita Aurelio Martinez",
+    },
+    {
+      boleto: "106",
+      nombre: "Cosme Soriano Moreno",
+    },
+    {
+      boleto: "107",
+      nombre: "Maximina Rivera Simon",
+    },
+    {
+      boleto: "108",
+      nombre: "Ana Fernanda Casanova Hernandez",
+    },
+    {
+      boleto: "109",
+      nombre: "Karol Guadalupe Casanova Hernandez",
+    },
+    {
+      boleto: "110",
+      nombre: "Fernando Casanova De Jesus",
+    },
+    {
+      boleto: "111",
+      nombre: "Diego Emmanuel Casanova Hernandez",
+    },
+    {
+      boleto: "112",
+      nombre: "Yeraidin Adan Garcia Huerta",
+    },
+    {
+      boleto: "113",
+      nombre: "Gabriela Casanova",
+    },
+    {
+      boleto: "114",
+      nombre: "Lulu Aparicio Parra",
+    },
+    {
+      boleto: "115",
+      nombre: "Alejandra Fidel Garcia",
+    },
 
     //121-140
     {
       boleto: "131",
       nombre: "Yameli Garcia Mota",
     },
+    {
+      boleto: "132",
+      nombre: "Eugenia Nava Castañeda",
+    },
+    {
+      boleto: "133",
+      nombre: "Eugenia Nava Castañeda",
+    },
+    {
+      boleto: "134",
+      nombre: "Ana Maria Fernandez Nava",
+    },
+    {
+      boleto: "135",
+      nombre: "Renata Patricio Garcia",
+    },
+    {
+      boleto: "136",
+      nombre: "Alondra Eulogia Juarez",
+    },
+    {
+      boleto: "137",
+      nombre: "Jose Eulogia Vazquez",
+    },
+    {
+      boleto: "138",
+      nombre: "Florencia Juarez Martinez",
+    },
+    {
+      boleto: "139",
+      nombre: "Gabriela Benito Tirado",
+    },
+    {
+      boleto: "140",
+      nombre: "Bacilia Castañeda de Jesus",
+    },
+    {
+      boleto: "141",
+      nombre: "Araceli Martinez Hernandez",
+    },
+    {
+      boleto: "142",
+      nombre: "Leticia Hernandez Lopez",
+    },
+    {
+      boleto: "143",
+      nombre: "Lorenzo Juarez Martinez",
+    },
+    {
+      boleto: "144",
+      nombre: "Jeremi Yahir Cordova Nava",
+    },
+    {
+      boleto: "145",
+      nombre: "Karen Juarez Valera",
+    },
+    {
+      boleto: "146",
+      nombre: "Ana Maria Salazar Reyes",
+    },
+    {
+      boleto: "149",
+      nombre: "Felix Mora Hernandez",
+    },
+    
     //141-160
     {
       boleto: "150",
@@ -73,13 +421,74 @@ function App() {
       boleto: "159",
       nombre: "Dante Victoria Ramos",
     },
-
-    //91-100
     {
-      boleto: "100",
-      nombre: "Daniel Casiano Lauriano",
+      boleto: "160",
+      nombre: "Sergio Morales Mota",
+    },
+
+    {
+      boleto: "161",
+      nombre: "Hector Garcia Ramirez",
+    },
+    {
+      boleto: "162",
+      nombre: "Miguel Angel De La Cruz",
+    },
+    
+    {
+      boleto: "163",
+      nombre: "Judith Sanchez",
+    },
+    {
+      boleto: "164",
+      nombre: "Miguel Angel De La Cruz",
+    },
+    {
+      boleto: "165",
+      nombre: "Omar Garcia Mendez",
+    },
+    {
+      boleto: "167",
+      nombre: "Gabriela Ramirez Simon",
+    },
+    {
+      boleto: "168",
+      nombre: "Marco Antonio Vazquez Perez",
+    },
+    {
+      boleto: "169",
+      nombre: "Adrian Encarnacion",
+    },
+    {
+      boleto: "170",
+      nombre: "Jeniffer Guzman Mendez",
+    },
+
+    {
+      boleto: "171",
+      nombre: "Flavio Narciso Lucas",
+    },
+    {
+      boleto: "172",
+      nombre: "Vania Becerril Mendez",
+    },
+    {
+      boleto: "173",
+      nombre: "Flavio Narciso Lucas",
+    },
+    {
+      boleto: "174",
+      nombre: "Pascual Perez Hernandez",
+    },
+    {
+      boleto: "181",
+      nombre: "Moises Valera Carmona",
     },
     //191-200
+    {
+      boleto: "192",
+      nombre: "Luis Miranda",
+    },
     {
       boleto: "200",
       nombre: "Marcelina de Jesus García",
@@ -151,6 +560,10 @@ function App() {
       nombre: "Luis Mora",
     },
     {
+      boleto: "246",
+      nombre: "Gerardo Perfecto",
+    },
+    {
       boleto: "250",
       nombre: "Rodolfo Borzani",
     },
@@ -159,14 +572,34 @@ function App() {
       nombre: "María Dolores Monroy Díaz",
     },
     {
+      boleto: "252",
+      nombre: "Mia Miranda",
+    },
+    {
+      boleto: "254",
+      nombre: "Adareli",
+    },
+    {
       boleto: "255",
       nombre: "José David Muñiz Monroy",
+    },
+    {
+      boleto: "256",
+      nombre: "Maty Galindo",
+    },
+    {
+      boleto: "257",
+      nombre: "Anette Bautista Aquino",
+    },
+    {
+      boleto: "259",
+      nombre: "Josafath Bautista Aquino",
     },
     {
       boleto: "260",
       nombre: "Gabriel Muñiz Monroy",
     },
-    //261-270
+    //261-280 Lobo
     {
       boleto: "261",
       nombre: "Uriel Hernandez Ramirez",
@@ -176,14 +609,53 @@ function App() {
       nombre: "Uriel Hernandez Ramirez",
     },
     {
+      boleto: "263",
+      nombre: "Jesus Camacho",
+    },
+    {
+      boleto: "264",
+      nombre: "Aventurero",
+    },
+    {
       boleto: "265",
       nombre: "Gabriela Ramirez",
+    },
+    {
+      boleto: "266",
+      nombre: "Graciela de Jesus Lopez",
+    },
+    {
+      boleto: "267",
+      nombre: "Jaqueline de Jesus Lopez",
+    },
+    {
+      boleto: "268",
+      nombre: "Jose Antonio Vazquez",
+    },
+    {
+      boleto: "269",
+      nombre: "Jose Antonio Vazquez",
     },
     {
       boleto: "270",
       nombre: "Jazmin Hernandez",
     },
-    //271-280
+    {
+      boleto: "271",
+      nombre: "Maria Yolanda Ruiz Escalona",
+    },
+    {
+      boleto: "272",
+      nombre: "Maria Yolanda Ruiz Escalona",
+    },
+    {
+      boleto: "273",
+      nombre: "Ivan Mendez Urbano",
+    },
+    {
+      boleto: "274",
+      nombre: "Aventurero",
+    },
     {
       boleto: "275",
       nombre: "Marcos Hernandez",
@@ -192,10 +664,30 @@ function App() {
       boleto: "276",
       nombre: "Marcos Hernandez",
     },
-    //281-290
+    {
+      boleto: "277",
+      nombre: "Maria Luisa Ruiz Escalona",
+    },
+    {
+      boleto: "278",
+      nombre: "Josue Isaias Vazquez Ruiz",
+    },
+    {
+      boleto: "279",
+      nombre: "Raquel Elizabeth Vazquez de Jesus",
+    },
+    {
+      boleto: "280",
+      nombre: "Marco Antonio Vazquez Perez",
+    },
+    //281-290 Abraham
     {
       boleto: "281",
       nombre: "Maxi Cabrera Benito",
+    },
+    {
+      boleto: "282",
+      nombre: "Lorena de Jesus Lopez",
     },
     {
       boleto: "283",
@@ -204,6 +696,10 @@ function App() {
     {
       boleto: "284",
       nombre: "Agustina Cabrera Benito",
+    },
+    {
+      boleto: "285",
+      nombre: "Irma de Jesus Lopez",
     },
     {
       boleto: "286",
@@ -225,6 +721,7 @@ function App() {
       boleto: "290",
       nombre: "Rafael Serrano Mestiza",
     },
+    //291-300
     {
       boleto: "291",
       nombre: "Nahum Alejandro Fermin Garcia",
@@ -252,11 +749,19 @@ function App() {
     {
       boleto: "297",
       nombre: "Octavio Colin",
+    }, 
+    {
+      boleto: "298",
+      nombre: "Emmanuel Ramos Marin",
     },
     {
-      boleto: "292",
-      nombre: "Octavio Colin",
-    },   
+      boleto: "299",
+      nombre: "Emmanuel Ramos Marin",
+    },
+    {
+      boleto: "300",
+      nombre: "Emmanuel Ramos Marin",
+    },
     
     //391-400
     {
