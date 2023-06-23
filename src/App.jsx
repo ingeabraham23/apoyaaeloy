@@ -408,6 +408,10 @@ function App() {
       nombre: "Ana Maria Salazar Reyes",
     },
     {
+      boleto: "147",
+      nombre: "Gerardo Perfecto Garcia",
+    },
+    {
       boleto: "149",
       nombre: "Felix Mora Hernandez",
     },
@@ -559,10 +563,7 @@ function App() {
       boleto: "244",
       nombre: "Luis Mora",
     },
-    {
-      boleto: "246",
-      nombre: "Gerardo Perfecto",
-    },
+    
     {
       boleto: "250",
       nombre: "Rodolfo Borzani",
