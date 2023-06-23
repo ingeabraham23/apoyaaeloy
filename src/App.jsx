@@ -7,7 +7,10 @@ import imagen04 from "./assets/04.jpg";
 
 function App() {
   const personas = [
-    
+    {
+      boleto: "001",
+      nombre: "Emilio Aquino Teodosio",
+    },
     {
       boleto: "003",
       nombre: "Maria Del Carmen Hernandez Molina",
@@ -49,22 +52,34 @@ function App() {
       nombre: "Susy Sanchez Carmona",
     },
     {
-      boleto: "14",
+      boleto: "014",
       nombre: "Guadalupe de Jesus Juarez",
     },
     {
-      boleto: "15",
+      boleto: "015",
       nombre: "Hugo Jared Casiano ",
     },
     {
-      boleto: "16",
+      boleto: "016",
       nombre: "Angel Giovani Carreon Ortega",
     },
     {
-      boleto: "17",
+      boleto: "017",
       nombre: "Felipe Camacho Martinez",
     },
+    {
+      boleto: "018",
+      nombre: "Silvia Julian Aquino",
+    },
     //21-30
+    {
+      boleto: "020",
+      nombre: "Florencia Hernandez Perez",
+    },
+    {
+      boleto: "021",
+      nombre: "Ivan Cano Capetillo",
+    },
     {
       boleto: "022",
       nombre: "Amibelen Casiano Sanchez",
@@ -74,206 +89,238 @@ function App() {
       nombre: "Jose Luis Sanchez Campos",
     },
     {
-      boleto: "24",
+      boleto: "024",
       nombre: "Juana Sanchez Carmona",
     },
     {
-      boleto: "26",
+      boleto: "025",
+      nombre: "Humberto Leon Bravo",
+    },
+    {
+      boleto: "026",
       nombre: "Juan Roman Galvan",
     },
     {
-      boleto: "28",
+      boleto: "027",
+      nombre: "Ivan Cano Capetillo",
+    },
+    {
+      boleto: "028",
       nombre: "Raquel Herrera Vega",
     },
     {
-      boleto: "30",
+      boleto: "029",
+      nombre: "Humberto Leon Bravo",
+    },
+    {
+      boleto: "030",
       nombre: "Hector Garcia Ramirez",
     },
     {
-      boleto: "31",
+      boleto: "031",
       nombre: "Flavio Narciso Lucas",
     },
     {
-      boleto: "32",
+      boleto: "032",
       nombre: "Vania Becerril Mendez",
     },
     {
-      boleto: "33",
+      boleto: "033",
       nombre: "Flavio Narciso Lucas",
     },
     {
-      boleto: "34",
+      boleto: "034",
       nombre: "Dilan Urbano Perfecto Ventura",
     },
     {
-      boleto: "35",
+      boleto: "035",
       nombre: "Flavio Narciso Lucas",
     },
     {
-      boleto: "36",
+      boleto: "036",
       nombre: "Dilan Urbano Perfecto Ventura",
     },
     {
-      boleto: "37",
+      boleto: "037",
       nombre: "Flavio Narciso Lucas",
     },
     {
-      boleto: "38",
+      boleto: "038",
       nombre: "Margarita Casiano Gonzalez",
     },
     {
-      boleto: "39",
+      boleto: "039",
       nombre: "Flavio Narciso Lucas",
     },
     {
-      boleto: "40",
+      boleto: "040",
       nombre: "Dilan Urbano Perfecto Ventura",
     },
     {
-      boleto: "41",
+      boleto: "041",
       nombre: "Flavio Narciso Lucas",
     },
     {
-      boleto: "42",
+      boleto: "042",
       nombre: "Vania Becerril Mendez",
     },
     {
-      boleto: "43",
+      boleto: "043",
       nombre: "Flavio Narciso Lucas",
     },
     {
-      boleto: "44",
+      boleto: "044",
       nombre: "Isaias Meneses Vega",
     },
     {
-      boleto: "45",
+      boleto: "045",
       nombre: "Flavio Narciso Lucas",
     },
     
     //40-60
     {
-      boleto: "46",
+      boleto: "046",
       nombre: "Marcos Colin",
     },
     {
-      boleto: "50",
+      boleto: "050",
       nombre: "Victor Santos Aparicio",
     },
     {
-      boleto: "51",
+      boleto: "051",
       nombre: "Marcos Colin",
     },
     {
-      boleto: "52",
+      boleto: "052",
       nombre: "Moises Valera Carmona",
     },
     {
-      boleto: "54",
+      boleto: "054",
       nombre: "Samuel Vazquez Nicolas",
     },
     {
-      boleto: "55",
+      boleto: "055",
       nombre: "Marcos Colin",
     },
     {
-      boleto: "56",
+      boleto: "056",
       nombre: "Humberto Ibañez Rodrigo",
     },
     {
-      boleto: "57",
+      boleto: "057",
       nombre: "Victor Santos Aparicio",
     },
     {
-      boleto: "59",
+      boleto: "059",
       nombre: "Alma Rosa Lucas Acevedo",
     },
     {
-      boleto: "60",
+      boleto: "060",
       nombre: "Ramon Olivares Pozos",
     },
     {
-      boleto: "61",
+      boleto: "061",
       nombre: "Samuel Vazquez Nicolas",
     },
     {
-      boleto: "64",
+      boleto: "064",
       nombre: "Ramon Olivares Pozos",
     },
     {
-      boleto: "65",
+      boleto: "065",
       nombre: "Marcos Colin",
     },
     
     //61-70
     {
-      boleto: "66",
+      boleto: "066",
       nombre: "Brenda Ivonne Cordero Ortega",
     },
     {
-      boleto: "67",
+      boleto: "067",
       nombre: "Emmanuel Ramos Marin",
     },
     {
-      boleto: "69",
+      boleto: "068",
+      nombre: "Arnulfo Ramos Gonzalez",
+    },
+    {
+      boleto: "069",
       nombre: "Ines Carmona Larios",
     },
     
     {
-      boleto: "70",
+      boleto: "070",
       nombre: "Francisca Sandoval Rojas",
+    },
+    {
+      boleto: "071",
+      nombre: "Natividad Mote Rivera",
+    },
+    {
+      boleto: "072",
+      nombre: "Natividad Mote Rivera",
+    },
+    {
+      boleto: "073",
+      nombre: "Arnulfo Ramos Gonzalez",
+    },
+    {
+      boleto: "074",
+      nombre: "Arnulfo Ramos Gonzalez",
     },
 
     //71-80
     {
-      boleto: "75",
+      boleto: "075",
       nombre: "José Luis Ortega Sandoval",
     },
     {
-      boleto: "76",
+      boleto: "076",
       nombre: "Santiago Rojas Domingo",
     },
     {
-      boleto: "77",
+      boleto: "077",
       nombre: "Valeria Del Carmen Rojas Domingo",
     },
     {
-      boleto: "78",
+      boleto: "078",
       nombre: "Regina Rojas Rojas",
     },
     {
-      boleto: "79",
+      boleto: "079",
       nombre: "Sebastian Rojas Rojas",
     },
     {
-      boleto: "80",
+      boleto: "080",
       nombre: "Victor Manuel Suarez Minor",
     },
     {
-      boleto: "81",
+      boleto: "081",
       nombre: "Rosario Martinez Hernandez",
     },
     {
-      boleto: "82",
+      boleto: "082",
       nombre: "Darío Conde Martinez",
     },
     {
-      boleto: "85",
+      boleto: "085",
       nombre: "Jose Luis Victoria Mena",
     },
     {
-      boleto: "87",
+      boleto: "087",
       nombre: "Edgar Morales",
     },
     {
-      boleto: "88",
+      boleto: "088",
       nombre: "Concepcion Conde Teodosio",
     },
     {
-      boleto: "89",
+      boleto: "089",
       nombre: "Edgar Morales",
     },
     {
-      boleto: "91",
+      boleto: "091",
       nombre: "Juan Carlos Valera Lara",
     },
 
@@ -340,6 +387,66 @@ function App() {
     {
       boleto: "115",
       nombre: "Alejandra Fidel Garcia",
+    },
+    {
+      boleto: "116",
+      nombre: "Mayra Goretty Gonzalez Sosa",
+    },
+    {
+      boleto: "117",
+      nombre: "Inocencia Espinoza Garcia",
+    },
+    {
+      boleto: "118",
+      nombre: "Cristina Inocencio Ortiz",
+    },
+    {
+      boleto: "119",
+      nombre: "Mayra Yesenia Espinoza Inocencio",
+    },
+    {
+      boleto: "120",
+      nombre: "Isela Del Carmen Espinoza Inocencio",
+    },
+    {
+      boleto: "121",
+      nombre: "Jose Alejandro Ortega",
+    },
+    {
+      boleto: "122",
+      nombre: "Jose Sebastian Ortega Espinoza",
+    },
+    {
+      boleto: "123",
+      nombre: "Cristian Espinoza Inocencio",
+    },
+    {
+      boleto: "124",
+      nombre: "Mayra Goretty Gonzalez Sosa",
+    },
+    {
+      boleto: "125",
+      nombre: "Cristian Espinoza Inocencio",
+    },
+    {
+      boleto: "126",
+      nombre: "Juan Mauricio Aparicio Vega",
+    },
+    {
+      boleto: "127",
+      nombre: "Señora Salia",
+    },
+    {
+      boleto: "128",
+      nombre: "Señora Salia",
+    },
+    {
+      boleto: "129",
+      nombre: "Araceli Cruz Lozano",
+    },
+    {
+      boleto: "130",
+      nombre: "Maurilia Sosa Diaz",
     },
 
     //121-140
@@ -412,6 +519,10 @@ function App() {
       nombre: "Gerardo Perfecto Garcia",
     },
     {
+      boleto: "148",
+      nombre: "Ramon Gomez",
+    },
+    {
       boleto: "149",
       nombre: "Felix Mora Hernandez",
     },
@@ -420,6 +531,38 @@ function App() {
     {
       boleto: "150",
       nombre: "Jhonatan Tadeo",
+    },
+    {
+      boleto: "151",
+      nombre: "Marco Antonio Andio Ortiz",
+    },
+    {
+      boleto: "152",
+      nombre: "Karol Cordova Becerra",
+    },
+    {
+      boleto: "153",
+      nombre: "Ramon Olivares Antonio",
+    },
+    {
+      boleto: "154",
+      nombre: "Marlen Aquino Julian",
+    },
+    {
+      boleto: "155",
+      nombre: "Samuel Hernandez Sebastian",
+    },
+    {
+      boleto: "156",
+      nombre: "Norberto Zamora",
+    },
+    {
+      boleto: "157",
+      nombre: "Norberto Zamora",
+    },
+    {
+      boleto: "158",
+      nombre: "Norberto Zamora",
     },
     {
       boleto: "159",
@@ -485,13 +628,49 @@ function App() {
       nombre: "Pascual Perez Hernandez",
     },
     {
+      boleto: "176",
+      nombre: "Señora Salia",
+    },
+    {
+      boleto: "178",
+      nombre: "Señora Salia",
+    },
+    {
+      boleto: "179",
+      nombre: "Señora Salia",
+    },
+    {
+      boleto: "180",
+      nombre: "Jose Juan Hermenegildo Aguilar",
+    },
+    {
       boleto: "181",
       nombre: "Moises Valera Carmona",
+    },
+    {
+      boleto: "184",
+      nombre: "Eliza Hernandez Bonilla",
+    },
+    {
+      boleto: "189",
+      nombre: "Fausto Hernandez",
     },
     //191-200
     {
       boleto: "192",
       nombre: "Luis Miranda",
+    },
+    {
+      boleto: "194",
+      nombre: "Fausto Hernandez",
+    },
+    {
+      boleto: "196",
+      nombre: "Natalia Bonilla Apango",
+    },
+    {
+      boleto: "197",
+      nombre: "Fausto Hernandez",
     },
     {
       boleto: "200",
@@ -546,7 +725,8 @@ function App() {
       boleto: "220",
       nombre: "David Santos Lucas",
     },
-    //241-260
+
+    //241-260 David David David David David David David David David David David David
     {
       boleto: "241",
       nombre: "Ofelia Luna Paulino",
@@ -563,7 +743,26 @@ function App() {
       boleto: "244",
       nombre: "Luis Mora",
     },
-    
+    {
+      boleto: "245",
+      nombre: "Diana K. Garcia Barroeta",
+    },
+    {
+      boleto: "246",
+      nombre: "Florencia Hernandez Perez",
+    },
+    {
+      boleto: "247",
+      nombre: "Lucia Vega Arroy",
+    },
+    {
+      boleto: "248",
+      nombre: "Claudia Lizeth Jimenez Hernandez",
+    },
+    {
+      boleto: "249",
+      nombre: "Iztac Quiterio Hernandez",
+    },
     {
       boleto: "250",
       nombre: "Rodolfo Borzani",
@@ -575,6 +774,10 @@ function App() {
     {
       boleto: "252",
       nombre: "Mia Miranda",
+    },
+    {
+      boleto: "253",
+      nombre: "Aldo Trujillo",
     },
     {
       boleto: "254",
@@ -593,6 +796,10 @@ function App() {
       nombre: "Anette Bautista Aquino",
     },
     {
+      boleto: "258",
+      nombre: "Aldo Trujillo",
+    },
+    {
       boleto: "259",
       nombre: "Josafath Bautista Aquino",
     },
@@ -600,7 +807,9 @@ function App() {
       boleto: "260",
       nombre: "Gabriel Muñiz Monroy",
     },
-    //261-280 Lobo
+    //David David David David David David David David David David David David
+
+    //261-280 Lobo Lobo Lobo Lobo Lobo Lobo Lobo Lobo Lobo Lobo Lobo Lobo Lobo Lobo
     {
       boleto: "261",
       nombre: "Uriel Hernandez Ramirez",
@@ -681,6 +890,8 @@ function App() {
       boleto: "280",
       nombre: "Marco Antonio Vazquez Perez",
     },
+    //Lobo Lobo Lobo Lobo Lobo Lobo Lobo Lobo Lobo Lobo Lobo Lobo Lobo Lobo
+
     //281-290 Abraham
     {
       boleto: "281",
@@ -763,8 +974,404 @@ function App() {
       boleto: "300",
       nombre: "Emmanuel Ramos Marin",
     },
-    
-    //391-400
+
+    {
+      boleto: "301",
+      nombre: "Beatriz Toral",
+    },
+    {
+      boleto: "302",
+      nombre: "Raymundo Martinez",
+    },
+    {
+      boleto: "303",
+      nombre: "Everardo Alarcon Posadas",
+    },
+    {
+      boleto: "304",
+      nombre: "Everardo Alarcon",
+    },
+    {
+      boleto: "305",
+      nombre: "Vanessa Antonio",
+    },
+    {
+      boleto: "306",
+      nombre: "Jonathan Jimenez",
+    },
+    {
+      boleto: "307",
+      nombre: "Abel Santos",
+    },
+    {
+      boleto: "308",
+      nombre: "Nancy Torres",
+    },
+    {
+      boleto: "309",
+      nombre: "Karen Castro",
+    },
+    {
+      boleto: "310",
+      nombre: "Karen Castro",
+    },
+    {
+      boleto: "311",
+      nombre: "Ruben Lopez",
+    },
+    {
+      boleto: "312",
+      nombre: "Nelson Landero",
+    },
+    {
+      boleto: "313",
+      nombre: "Maricarmen Galindo",
+    },
+    {
+      boleto: "314",
+      nombre: "Mayra Teodocio",
+    },
+    {
+      boleto: "315",
+      nombre: "Mayra Cardenas",
+    },
+    {
+      boleto: "316",
+      nombre: "Montserrat Lucas",
+    },
+    {
+      boleto: "317",
+      nombre: "Silviano Conde",
+    },
+    {
+      boleto: "318",
+      nombre: "Raymundo Martinez",
+    },
+    {
+      boleto: "319",
+      nombre: "Araceli Agustin",
+    },
+    {
+      boleto: "320",
+      nombre: "Jorge Santos",
+    },
+    {
+      boleto: "321",
+      nombre: "Ruben Lopez",
+    },
+    {
+      boleto: "322",
+      nombre: "Gustavo Julian",
+    },
+    {
+      boleto: "323",
+      nombre: "Ma. Del Rosario Conde",
+    },
+    {
+      boleto: "324",
+      nombre: "Ma. Del Rosario Conde",
+    },
+    {
+      boleto: "325",
+      nombre: "Omar Santos",
+    },
+    {
+      boleto: "326",
+      nombre: "Diego Romero",
+    },
+    {
+      boleto: "327",
+      nombre: "Silviano Conde",
+    },
+    {
+      boleto: "328",
+      nombre: "Gustavo Galindo",
+    },
+    {
+      boleto: "329",
+      nombre: "Elisa Lopez",
+    },
+    {
+      boleto: "330",
+      nombre: "Ruben Lopez",
+    },
+    {
+      boleto: "331",
+      nombre: "Guillermina Santos",
+    },
+    {
+      boleto: "332",
+      nombre: "Laura Morales",
+    },
+    {
+      boleto: "333",
+      nombre: "Rodrigo Cesareo",
+    },
+    {
+      boleto: "334",
+      nombre: "Vicky Conde Reyes",
+    },
+    {
+      boleto: "335",
+      nombre: "Laura Morales",
+    },
+    {
+      boleto: "336",
+      nombre: "Laura Morales",
+    },
+
+    {
+      boleto: "337",
+      nombre: "Laura Morales",
+    },
+    {
+      boleto: "338",
+      nombre: "Arturo Morales",
+    },
+    {
+      boleto: "339",
+      nombre: "Arturo Morales",
+    },
+    {
+      boleto: "340",
+      nombre: "Lucia Morales",
+    },
+    {
+      boleto: "341",
+      nombre: "Luis Angel Cesareo",
+    },
+    {
+      boleto: "342",
+      nombre: "Lucia Morales",
+    },
+    {
+      boleto: "343",
+      nombre: "Arturo Morales",
+    },
+    {
+      boleto: "344",
+      nombre: "Arturo Morales",
+    },
+    {
+      boleto: "345",
+      nombre: "Eutiquia Santos",
+    },
+    {
+      boleto: "346",
+      nombre: "Ignacio Toledano",
+    },
+    {
+      boleto: "347",
+      nombre: "Abel Santos",
+    },
+    {
+      boleto: "348",
+      nombre: "Beatriz Amaro",
+    },
+    {
+      boleto: "349",
+      nombre: "Diego Romero",
+    },
+    {
+      boleto: "350",
+      nombre: "Pablo Castro",
+    },
+    {
+      boleto: "351",
+      nombre: "Regina Angel",
+    },
+    {
+      boleto: "352",
+      nombre: "Mariana Amaro",
+    },
+    {
+      boleto: "353",
+      nombre: "Eugenia Leon",
+    },
+    {
+      boleto: "354",
+      nombre: "Jaime Galindo",
+    },
+    {
+      boleto: "355",
+      nombre: "Eduardo Santos",
+    },
+    {
+      boleto: "356",
+      nombre: "Cintia Rodrigo",
+    },
+    {
+      boleto: "357",
+      nombre: "Natali Rodrigo",
+    },
+    {
+      boleto: "358",
+      nombre: "Karla Sofia Rodrigo",
+    },
+    {
+      boleto: "359",
+      nombre: "Lucia Santos",
+    },
+    {
+      boleto: "360",
+      nombre: "Lucia Santos",
+    },
+    {
+      boleto: "361",
+      nombre: "Lucia Santos",
+    },
+    {
+      boleto: "362",
+      nombre: "Araceli Flores",
+    },
+    {
+      boleto: "363",
+      nombre: "Margarita Natividad",
+    },
+    {
+      boleto: "364",
+      nombre: "Julio Cesar Hernandez",
+    },
+    {
+      boleto: "365",
+      nombre: "Jasive Adareli",
+    },
+    {
+      boleto: "366",
+      nombre: "Lucia Santos",
+    },
+    {
+      boleto: "367",
+      nombre: "Carmen Castro",
+    },
+    {
+      boleto: "368",
+      nombre: "Lucia Santos",
+    },
+    {
+      boleto: "369",
+      nombre: "Lorenzo Conde",
+    },
+    {
+      boleto: "370",
+      nombre: "Maria Isabel Castro",
+    },
+    {
+      boleto: "371",
+      nombre: "Antonia Santos",
+    },
+    {
+      boleto: "372",
+      nombre: "Lucia Santos",
+    },
+    {
+      boleto: "373",
+      nombre: "Laura Morales",
+    },
+    {
+      boleto: "374",
+      nombre: "Lucia Santos",
+    },
+    {
+      boleto: "375",
+      nombre: "Lucia Santos",
+    },
+    {
+      boleto: "376",
+      nombre: "Lucia Santos",
+    },
+    {
+      boleto: "377",
+      nombre: "Leticia Castro",
+    },
+    {
+      boleto: "378",
+      nombre: "Jose lsabel lsidro",
+    },
+    {
+      boleto: "379",
+      nombre: "Eduardo Barrera",
+    },
+    {
+      boleto: "380",
+      nombre: "Adriana Cantellano",
+    },
+    {
+      boleto: "381",
+      nombre: "Ruben Lopez",
+    },
+    {
+      boleto: "382",
+      nombre: "Araceli Flores",
+    },
+    {
+      boleto: "383",
+      nombre: "Vanessa Juarez",
+    },
+    {
+      boleto: "384",
+      nombre: "Juan Ortiz",
+    },
+    {
+      boleto: "385",
+      nombre: "Victorina Lucas",
+    },
+    {
+      boleto: "386",
+      nombre: "José Conde",
+    },
+    {
+      boleto: "387",
+      nombre: "Iris Anahi Garcia",
+    },
+    {
+      boleto: "388",
+      nombre: "Fabiola Teodocio",
+    },
+    {
+      boleto: "389",
+      nombre: "Jessica de Jesus Ramos",
+    },
+    {
+      boleto: "390",
+      nombre: "Guillermo Alberto",
+    },
+    {
+      boleto: "391",
+      nombre: "Ruben Lopez",
+    },
+    {
+      boleto: "392",
+      nombre: "Andrea Anacleto",
+    },
+    {
+      boleto: "393",
+      nombre: "David Mendoza",
+    },
+    {
+      boleto: "394",
+      nombre: "Asuncion Santos",
+    },
+    {
+      boleto: "395",
+      nombre: "Margarita Natividad",
+    },
+    {
+      boleto: "396",
+      nombre: "Amy Sofia Alberto",
+    },
+    {
+      boleto: "397",
+      nombre: "Diana Paola Perez",
+    },
+    {
+      boleto: "398",
+      nombre: "Julian Bonilla",
+    },
+    {
+      boleto: "399",
+      nombre: "Elisa Lopez",
+    },
     {
       boleto: "400",
       nombre: "Ines Carmona Larios",
