@@ -12,6 +12,10 @@ function App() {
       nombre: "Emilio Aquino Teodosio",
     },
     {
+      boleto: "002",
+      nombre: "Silvia Conde Teodosio",
+    },
+    {
       boleto: "003",
       nombre: "Maria Del Carmen Hernandez Molina",
     },
@@ -70,6 +74,10 @@ function App() {
     {
       boleto: "018",
       nombre: "Silvia Julian Aquino",
+    },
+    {
+      boleto: "019",
+      nombre: "Alejandra Cabrera Perez",
     },
     //21-30
     {
@@ -183,6 +191,19 @@ function App() {
       nombre: "Marcos Colin",
     },
     {
+      boleto: "047",
+      nombre: "Ramiro Gonzalez Ortiz",
+    },
+    {
+      boleto: "048",
+      nombre: "Juan Pascual De La Cruz",
+    },
+    {
+      boleto: "049",
+      nombre: "Candido Ortiz Olivares",
+    },
+
+    {
       boleto: "050",
       nombre: "Victor Santos Aparicio",
     },
@@ -193,6 +214,10 @@ function App() {
     {
       boleto: "052",
       nombre: "Moises Valera Carmona",
+    },
+    {
+      boleto: "053",
+      nombre: "Ramiro Gonzalez Ortiz",
     },
     {
       boleto: "054",
@@ -211,6 +236,10 @@ function App() {
       nombre: "Victor Santos Aparicio",
     },
     {
+      boleto: "58",
+      nombre: "Bernardino Ramos Perez",
+    },
+    {
       boleto: "059",
       nombre: "Alma Rosa Lucas Acevedo",
     },
@@ -221,6 +250,14 @@ function App() {
     {
       boleto: "061",
       nombre: "Samuel Vazquez Nicolas",
+    },
+    {
+      boleto: "062",
+      nombre: "Francisco Clemente Hernandez",
+    },
+    {
+      boleto: "063",
+      nombre: "Juan Reyes Teodosio",
     },
     {
       boleto: "064",
@@ -324,6 +361,38 @@ function App() {
       nombre: "Juan Carlos Valera Lara",
     },
 
+    {
+      boleto: "92",
+      nombre: "Abigail Garcia Benito",
+    },
+    {
+      boleto: "93",
+      nombre: "Cecilia Benito Garcia",
+    },
+    {
+      boleto: "94",
+      nombre: "Abigail Garcia Benito",
+    },
+    {
+      boleto: "95",
+      nombre: "Clara Benito Garcia",
+    },
+    {
+      boleto: "96",
+      nombre: "Anayely Hilario Jaimez",
+    },
+    {
+      boleto: "97",
+      nombre: "Filomeno Garcia Hernandez",
+    },
+    {
+      boleto: "98",
+      nombre: "Filomeno Garcia Hernandez",
+    },
+    {
+      boleto: "99",
+      nombre: "Elizabeth Mendez Jimenez",
+    },
     {
       boleto: "100",
       nombre: "Daniel Casiano Lauriano",
@@ -595,9 +664,14 @@ function App() {
       nombre: "Omar Garcia Mendez",
     },
     {
+      boleto: "166",
+      nombre: "Elpidio Marcos Cordova",
+    },
+    {
       boleto: "167",
       nombre: "Gabriela Ramirez Simon",
     },
+    
     {
       boleto: "168",
       nombre: "Marco Antonio Vazquez Perez",
@@ -648,21 +722,49 @@ function App() {
       nombre: "Moises Valera Carmona",
     },
     {
+      boleto: "182",
+      nombre: "Maria Isabel Mendez Hernandez",
+    },
+    {
       boleto: "184",
       nombre: "Eliza Hernandez Bonilla",
+    },
+    {
+      boleto: "187",
+      nombre: "Wulfrano Figueroa Hernandez",
+    },
+    {
+      boleto: "188",
+      nombre: "Benita Luna Hernandez",
     },
     {
       boleto: "189",
       nombre: "Fausto Hernandez",
     },
+    {
+      boleto: "190",
+      nombre: "Yahor Alonso Arguelles",
+    },
     //191-200
+    {
+      boleto: "191",
+      nombre: "Yuridia Sanchez Hernandez",
+    },
     {
       boleto: "192",
       nombre: "Luis Miranda",
     },
     {
+      boleto: "193",
+      nombre: "Julian Martinez Sarmiento",
+    },
+    {
       boleto: "194",
       nombre: "Fausto Hernandez",
+    },
+    {
+      boleto: "195",
+      nombre: "Juan Carlos Garcia De Jesus",
     },
     {
       boleto: "196",
@@ -671,6 +773,10 @@ function App() {
     {
       boleto: "197",
       nombre: "Fausto Hernandez",
+    },
+    {
+      boleto: "198",
+      nombre: "Martha Joaquin Perez",
     },
     {
       boleto: "200",
@@ -714,6 +820,10 @@ function App() {
       nombre: "Roberto Santos",
     },
     {
+      boleto: "217",
+      nombre: "Zara Reyes Mendez",
+    },
+    {
       boleto: "218",
       nombre: "Tino Garger",
     },
@@ -724,6 +834,86 @@ function App() {
     {
       boleto: "220",
       nombre: "David Santos Lucas",
+    },
+    {
+      boleto: "221",
+      nombre: "Jose Armando Brigido Rodriguez",
+    },
+    {
+      boleto: "222",
+      nombre: "Heriberto Brigido Jimenez",
+    },
+    {
+      boleto: "223",
+      nombre: "Minerva Rodriguez Esteban",
+    },
+    {
+      boleto: "224",
+      nombre: "Montserrat Brigido Rodriguez",
+    },
+    {
+      boleto: "225",
+      nombre: "Raul Brigido Trujillo",
+    },
+    {
+      boleto: "226",
+      nombre: "Heriberto Brigido Rodriguez",
+    },
+    {
+      boleto: "227",
+      nombre: "Gloria Jimenez Anacleto",
+    },
+    {
+      boleto: "228",
+      nombre: "Gloria Jimenez Anacleto",
+    },
+    {
+      boleto: "229",
+      nombre: "Gloria Jimenez Anacleto",
+    },
+    {
+      boleto: "230",
+      nombre: "Maria Del Carmen Brigido Rodriguez",
+    },
+    {
+      boleto: "231",
+      nombre: "Justimiano Rodriguez Palacio",
+    },
+    {
+      boleto: "232",
+      nombre: "Jaime Brigido J.",
+    },
+    {
+      boleto: "233",
+      nombre: "Jaime Brigido J.",
+    },
+    {
+      boleto: "234",
+      nombre: "Jaime Brigido J.",
+    },
+    {
+      boleto: "235",
+      nombre: "Jaime Brigido J.",
+    },
+    {
+      boleto: "236",
+      nombre: "Fabio Jimenez Anacleto",
+    },
+    {
+      boleto: "237",
+      nombre: "Rosi Jimenez Ortiz",
+    },
+    {
+      boleto: "238",
+      nombre: "Laura Jimenez Ortiz",
+    },
+    {
+      boleto: "239",
+      nombre: "Carmen Brigido",
+    },
+    {
+      boleto: "240",
+      nombre: "Brely Gonzalez Jiemenez",
     },
 
     //241-260 David David David David David David David David David David David David
