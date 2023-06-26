@@ -726,6 +726,10 @@ function App() {
       nombre: "Maria Isabel Mendez Hernandez",
     },
     {
+      boleto: "183",
+      nombre: "Eloy Gaspar",
+    },
+    {
       boleto: "184",
       nombre: "Eliza Hernandez Bonilla",
     },
@@ -1569,9 +1573,34 @@ function App() {
   ];
 
   return (
+    
     <div className="container">
+    <div className="video-container">
+      <div className="responsive-video">
+        <iframe
+          src="https://www.youtube.com/embed/kSvVGADWuew"
+          title="Video de YouTube"
+          frameBorder="0"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
+    <p>Video de la rifa benéfica.</p>
+    <div className="video-container">
+      <div className="responsive-video">
+        <iframe
+          src="https://www.youtube.com/embed/vdwSY_ROJ2Y"
+          title="Video de YouTube"
+          frameBorder="0"
+          allowFullScreen
+        ></iframe>
+      </div>
+      
+    </div>
+    <p>Entrega del premio de la rifa benéfica</p>
+    <hr></hr>
       <h3>Apoya a Eloy.</h3>
-      <h2>🎉Gran Rifa🎉</h2>
+      <h2>🎉Felicidades Al ganador de la rifa Eloy Gaspar de San sebastian🎉</h2>
       <h3>
         La rifa se llevara a cabo el día Domingo 25 de junio del 2023. En la
         base de Urbanos Rojos. A las 11:00 de la mañana.
